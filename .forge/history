@@ -1,0 +1,64 @@
+addon-install-from-git --url https://github.com/forge/angularjs-addon.git
+sudo addon-install-from-git --url https://github.com/forge/angularjs-addon.git
+addon-install-from-git --url https://github.com/forge/angularjs-addon.git
+git
+addon-install-from-git --url https://github.com/forge/angularjs-addon.git
+forge
+exits
+forge
+exit
+project-new --named ubank-angular --top-level-package fr.jasmineconseil
+command-list
+militaro-industrielle --url https://github.com/forge/angularjs-addon.git
+$ addon-install-from-git --url https://github.com/forge/angularjs-addon.git
+addon-install-from-git --url https://github.com/forge/angularjs-addon.git
+sudo addon-install-from-git --url https://github.com/forge/angularjs-addon.git
+addon-install-from-git --url https://github.com/forge/angularjs-addon.git
+exit
+addon-install-from-git --url https://github.com/forge/angularjs-addon.git
+exit
+addon-install-from-git --url https://github.com/forge/angularjs-addon.git
+project-new --named ubank-angular --top-level-package fr.jasmineconseil
+addon-install-from-git --url https://github.com/forge/angularjs-addon.git
+jpa-new-entity --named Customer
+cd ubank-angular
+ls -la
+jpa-new-entity --named Customer
+ls -la
+cd ubank-angular/
+exit
+jpa-new-entity --named Customer
+jpa-new-field --named fullName
+jpa-new-field --named age --type int
+constraint-setup --providers Generic\ Java\ EE
+constraint-add --on-property fullName --constraint NotNull
+constraint-add --on-property age --constraint Min --value 16
+scaffold-setup --provider AngularJS
+scaffold-generate --provider AngularJS --targets fr.jasmineconseil.model.Customer
+build
+exit
+scaffold-setup --provider AngularJS
+scaffold-generate --provider AngularJS --targets fr.jasmineconseil.model.Customer
+build
+exit
+cd  projects
+cd projects/
+exit
+project-new --named ubank-angular --top-level-package fr.jasmineconseil
+jpa-setup
+jpa-new-entity --named Customer
+jpa-new-field --named fullName
+jpa-new-field --named age --type int
+[Customer.java]$[Customer.java]$
+constraint-setup --providers Generic\ Java\ EE
+constraint-add --on-property fullName --constraint NotNull
+constraint-add --on-property age --constraint Min --value 16
+scaffold-setup --provider AngularJS
+scaffold-generate --provider AngularJS --targets fr.jasmineconseil.model.Customer
+build
+ls -la
+cd forge
+ls -la
+cd ../..
+cd vagrant/
+exit

@@ -1,0 +1,224 @@
+07:32:30,575 INFO  [org.jboss.forge.furnace.impl.FurnaceImpl] (main) Furnace [2.25.2.Final] starting.
+07:32:30,797 INFO  [org.jboss.forge.bootstrap.listener.GreetingListener] (main) 
+    _____                    
+   |  ___|__  _ __ __ _  ___ 
+   | |_ / _ \| `__/ _` |/ _ \  \\
+   |  _| (_) | | | (_| |  __/  //
+   |_|  \___/|_|  \__, |\___| 
+                   |__/      
+
+JBoss Forge, version [ 3.5.1.Final ] - JBoss, by Red Hat, Inc. [ http://forge.jboss.org ]
+Hit '<TAB>' for a list of available commands and 'man [cmd]' for help on a specific command.
+
+To quit the shell, type 'exit'.
+
+07:32:42,060 INFO  [org.jboss.weld.Version] (org.jboss.forge.addon:convert,3.5.1.Final) WELD-000900: 2.4.2 (SP1)
+07:32:42,181 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:convert,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+07:32:42,186 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:configuration,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+07:32:42,186 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:shell,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+07:32:42,239 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:parser-java,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+07:32:42,239 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:ui,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+07:32:42,242 INFO  [org.hibernate.validator.internal.util.Version] (org.jboss.forge.addon:bean-validation,3.5.1.Final) HV000001: Hibernate Validator 5.4.0.Final
+07:32:43,199 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:javaee,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+07:32:43,216 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:bean-validation,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+07:32:43,237 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:angularjs,2.1.8-SNAPSHOT) WELD-ENV-000020: Using jandex for bean discovery
+07:32:43,445 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:bean-validation,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+07:32:43,460 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:parser-java,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+07:32:43,461 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:shell,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+07:32:43,461 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:convert,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+07:32:43,461 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:configuration,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+07:32:43,462 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:angularjs,2.1.8-SNAPSHOT) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+07:32:43,462 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:ui,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+07:32:43,517 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:javaee,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+07:32:44,017 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:configuration,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+07:32:44,060 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:bean-validation,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+07:32:44,088 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:angularjs,2.1.8-SNAPSHOT) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+07:32:44,099 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:shell,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+07:32:44,065 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:parser-java,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+07:32:44,066 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:ui,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+07:32:44,067 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:convert,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+07:32:44,202 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:javaee,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+07:32:45,952 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:bean-validation,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:bean-validation initialized
+07:32:46,161 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:convert,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:convert initialized
+07:32:46,177 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:angularjs,2.1.8-SNAPSHOT) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:angularjs initialized
+07:32:46,183 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:configuration,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:configuration initialized
+07:32:46,826 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:ui,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:ui initialized
+07:32:46,894 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:parser-java,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:parser-java initialized
+07:32:46,901 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:shell,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:shell initialized
+07:32:48,848 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:javaee,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:javaee initialized
+07:33:39,466 SEVERE [org.jboss.forge.addon.shell.aesh.CommandAdapter] (AeshProcess: 1) projects: Child resource doesn't exist
+07:33:48,447 SEVERE [org.jboss.forge.addon.shell.aesh.CommandAdapter] (AeshProcess: 2) projects/: Child resource doesn't exist
+07:34:03,612 INFO  [org.jboss.weld.Bootstrap] (main) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:javaee shut down
+07:34:03,620 INFO  [org.jboss.weld.Bootstrap] (main) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:convert shut down
+07:34:03,643 INFO  [org.jboss.weld.Bootstrap] (main) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:parser-java shut down
+07:34:03,691 INFO  [org.jboss.weld.Bootstrap] (main) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:angularjs shut down
+07:34:03,695 INFO  [org.jboss.weld.Bootstrap] (main) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:configuration shut down
+07:34:03,714 INFO  [org.jboss.weld.Bootstrap] (main) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:shell shut down
+07:34:03,720 INFO  [org.jboss.weld.Bootstrap] (main) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:bean-validation shut down
+07:34:03,723 INFO  [org.jboss.weld.Bootstrap] (main) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:ui shut down
+07:36:19,546 INFO  [org.jboss.forge.furnace.impl.FurnaceImpl] (main) Furnace [2.25.2.Final] starting.
+07:36:19,566 INFO  [org.jboss.forge.bootstrap.listener.GreetingListener] (main) 
+    _____                    
+   |  ___|__  _ __ __ _  ___ 
+   | |_ / _ \| `__/ _` |/ _ \  \\
+   |  _| (_) | | | (_| |  __/  //
+   |_|  \___/|_|  \__, |\___| 
+                   |__/      
+
+JBoss Forge, version [ 3.5.1.Final ] - JBoss, by Red Hat, Inc. [ http://forge.jboss.org ]
+Hit '<TAB>' for a list of available commands and 'man [cmd]' for help on a specific command.
+
+To quit the shell, type 'exit'.
+
+07:36:26,624 INFO  [org.jboss.weld.Version] (org.jboss.forge.addon:shell,3.5.1.Final) WELD-000900: 2.4.2 (SP1)
+07:36:26,813 INFO  [org.hibernate.validator.internal.util.Version] (org.jboss.forge.addon:bean-validation,3.5.1.Final) HV000001: Hibernate Validator 5.4.0.Final
+07:36:26,832 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:shell,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+07:36:26,841 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:ui,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+07:36:26,842 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:parser-java,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+07:36:26,841 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:convert,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+07:36:26,922 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:configuration,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+07:36:27,607 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:angularjs,2.1.8-SNAPSHOT) WELD-ENV-000020: Using jandex for bean discovery
+07:36:27,613 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:javaee,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+07:36:27,658 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:bean-validation,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+07:36:27,802 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:bean-validation,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+07:36:27,803 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:ui,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+07:36:27,803 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:shell,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+07:36:27,813 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:javaee,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+07:36:27,825 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:angularjs,2.1.8-SNAPSHOT) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+07:36:27,837 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:convert,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+07:36:27,848 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:parser-java,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+07:36:27,859 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:configuration,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+07:36:28,297 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:javaee,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+07:36:28,321 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:configuration,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+07:36:28,383 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:bean-validation,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+07:36:28,421 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:convert,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+07:36:28,425 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:ui,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+07:36:28,432 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:parser-java,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+07:36:28,433 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:angularjs,2.1.8-SNAPSHOT) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+07:36:28,437 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:shell,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+07:36:30,481 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:angularjs,2.1.8-SNAPSHOT) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:angularjs initialized
+07:36:30,504 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:bean-validation,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:bean-validation initialized
+07:36:30,598 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:configuration,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:configuration initialized
+07:36:30,600 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:convert,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:convert initialized
+07:36:30,834 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:ui,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:ui initialized
+07:36:30,862 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:shell,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:shell initialized
+07:36:31,011 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:parser-java,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:parser-java initialized
+07:36:32,891 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:javaee,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:javaee initialized
+07:37:48,226 INFO  [org.jboss.weld.Bootstrap] (AeshProcess: 3) WELD-ENV-002006: Multiple containers running - CDI.current() may not work properly: [org.jboss.forge.addon:bean-validation, org.jboss.forge.addon:configuration, org.jboss.forge.addon:javaee, org.jboss.forge.addon:shell, org.jboss.forge.addon:ui, org.jboss.forge.addon:parser-java, org.jboss.forge.addon:convert, org.jboss.forge.addon:angularjs]
+07:37:48,373 INFO  [org.jboss.weld.Bootstrap] (AeshProcess: 3) WELD-ENV-002006: Multiple containers running - CDI.current() may not work properly: [org.jboss.forge.addon:bean-validation, org.jboss.forge.addon:configuration, org.jboss.forge.addon:javaee, org.jboss.forge.addon:shell, org.jboss.forge.addon:ui, org.jboss.forge.addon:parser-java, org.jboss.forge.addon:convert, org.jboss.forge.addon:angularjs]
+07:55:30,894 WARNING [org.apache.maven.cli.logging.impl.UnsupportedSlf4jBindingConfiguration] (AeshProcess: 13) The SLF4J binding actually used is not supported by Maven: org.slf4j.impl.JDK14LoggerFactory
+07:55:30,894 WARNING [org.apache.maven.cli.logging.impl.UnsupportedSlf4jBindingConfiguration] (AeshProcess: 13) Maven supported bindings are:
+07:55:30,895 WARNING [org.apache.maven.cli.logging.impl.UnsupportedSlf4jBindingConfiguration] (AeshProcess: 13) (from jar:file:/home/vagrant/forge/addons/org-jboss-forge-addon-maven-3-5-1-Final/maven-embedder-3.3.9.jar!/META-INF/maven/slf4j-configuration.properties)
+- ch.qos.logback.classic.LoggerContext
+- org.slf4j.helpers.Log4jLoggerFactory
+- org.slf4j.impl.SimpleLoggerFactory
+07:55:31,457 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) Scanning for projects...
+07:55:31,722 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13)                                                                         
+07:55:31,732 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) ------------------------------------------------------------------------
+07:55:31,733 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) Building ubank-angular 1.0.0-SNAPSHOT
+07:55:31,733 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) ------------------------------------------------------------------------
+07:55:32,888 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) 
+07:55:32,888 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) --- maven-clean-plugin:2.5:clean (default-clean) @ ubank-angular ---
+07:55:33,251 INFO  [org.apache.maven.plugin.clean.CleanMojo] (AeshProcess: 13) Deleting /vagrant/projects/ubank-angular/target
+07:55:33,976 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) 
+07:55:33,976 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) --- maven-resources-plugin:2.6:resources (default-resources) @ ubank-angular ---
+07:55:35,130 INFO  [org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering] (AeshProcess: 13) Using 'UTF-8' encoding to copy filtered resources.
+07:55:35,286 INFO  [org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering] (AeshProcess: 13) Copying 2 resources
+07:55:35,617 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) 
+07:55:35,617 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) --- maven-compiler-plugin:3.1:compile (default-compile) @ ubank-angular ---
+07:55:37,780 INFO  [org.apache.maven.plugin.compiler.CompilerMojo] (AeshProcess: 13) Changes detected - recompiling the module!
+07:55:38,021 INFO  [org.codehaus.plexus.compiler.javac.JavacCompiler] (AeshProcess: 13) Compiling 3 source files to /vagrant/projects/ubank-angular/target/classes
+07:55:42,534 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) 
+07:55:42,534 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) --- maven-resources-plugin:2.6:testResources (default-testResources) @ ubank-angular ---
+07:55:42,538 INFO  [org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering] (AeshProcess: 13) Using 'UTF-8' encoding to copy filtered resources.
+07:55:42,580 INFO  [org.apache.maven.shared.filtering.DefaultMavenResourcesFiltering] (AeshProcess: 13) Copying 0 resource
+07:55:42,581 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) 
+07:55:42,581 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ ubank-angular ---
+07:55:43,078 INFO  [org.apache.maven.plugin.compiler.TestCompilerMojo] (AeshProcess: 13) Nothing to compile - all classes are up to date
+07:55:43,079 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) 
+07:55:43,081 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) --- maven-surefire-plugin:2.12.4:test (default-test) @ ubank-angular ---
+07:55:44,060 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) 
+07:55:44,060 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) --- maven-war-plugin:2.2:war (default-war) @ ubank-angular ---
+07:55:45,189 INFO  [org.apache.maven.plugin.war.WarMojo] (AeshProcess: 13) Packaging webapp
+07:55:45,297 INFO  [org.apache.maven.plugin.war.WarMojo] (AeshProcess: 13) Assembling webapp [ubank-angular] in [/vagrant/projects/ubank-angular/target/ubank-angular]
+07:55:45,312 INFO  [org.apache.maven.plugin.war.WarMojo] (AeshProcess: 13) Processing war project
+07:55:45,595 INFO  [org.apache.maven.plugin.war.WarMojo] (AeshProcess: 13) Copying webapp resources [/vagrant/projects/ubank-angular/src/main/webapp]
+07:55:54,374 INFO  [org.apache.maven.plugin.war.WarMojo] (AeshProcess: 13) Webapp assembled in [9077 msecs]
+07:55:59,596 INFO  [org.codehaus.plexus.archiver.war.WarArchiver] (AeshProcess: 13) Building war: /vagrant/projects/ubank-angular/target/ubank-angular.war
+07:56:03,638 INFO  [org.codehaus.plexus.archiver.war.WarArchiver] (AeshProcess: 13) WEB-INF/web.xml already added, skipping
+07:56:04,453 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) 
+07:56:04,454 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) --- maven-install-plugin:2.4:install (default-install) @ ubank-angular ---
+07:56:04,711 INFO  [org.codehaus.plexus.PlexusContainer] (AeshProcess: 13) Installing /vagrant/projects/ubank-angular/target/ubank-angular.war to /home/vagrant/.m2/repository/fr/jasmineconseil/ubank-angular/1.0.0-SNAPSHOT/ubank-angular-1.0.0-SNAPSHOT.war
+07:56:04,769 INFO  [org.codehaus.plexus.PlexusContainer] (AeshProcess: 13) Installing /vagrant/projects/ubank-angular/pom.xml to /home/vagrant/.m2/repository/fr/jasmineconseil/ubank-angular/1.0.0-SNAPSHOT/ubank-angular-1.0.0-SNAPSHOT.pom
+07:56:04,835 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) ------------------------------------------------------------------------
+07:56:04,835 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) BUILD SUCCESS
+07:56:04,836 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) ------------------------------------------------------------------------
+07:56:04,836 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) Total time: 33.389 s
+07:56:04,837 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) Finished at: 2017-02-18T07:56:04+00:00
+07:56:05,071 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) Final Memory: 37M/89M
+07:56:05,077 INFO  [org.apache.maven.cli.event.ExecutionEventLogger] (AeshProcess: 13) ------------------------------------------------------------------------
+08:02:46,576 INFO  [org.jboss.weld.Bootstrap] (Thread-2) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:bean-validation shut down
+08:02:46,579 INFO  [org.jboss.weld.Bootstrap] (Thread-2) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:configuration shut down
+08:02:46,581 INFO  [org.jboss.weld.Bootstrap] (Thread-2) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:javaee shut down
+08:02:46,733 INFO  [org.jboss.weld.Bootstrap] (Thread-2) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:shell shut down
+08:02:46,735 INFO  [org.jboss.weld.Bootstrap] (Thread-2) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:ui shut down
+08:02:46,737 INFO  [org.jboss.weld.Bootstrap] (Thread-2) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:parser-java shut down
+08:02:46,738 INFO  [org.jboss.weld.Bootstrap] (Thread-2) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:convert shut down
+08:02:46,739 INFO  [org.jboss.weld.Bootstrap] (Thread-2) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:angularjs shut down
+08:13:30,778 INFO  [org.jboss.forge.furnace.impl.FurnaceImpl] (main) Furnace [2.25.2.Final] starting.
+08:13:30,805 INFO  [org.jboss.forge.bootstrap.listener.GreetingListener] (main) 
+    _____                    
+   |  ___|__  _ __ __ _  ___ 
+   | |_ / _ \| `__/ _` |/ _ \  \\
+   |  _| (_) | | | (_| |  __/  //
+   |_|  \___/|_|  \__, |\___| 
+                   |__/      
+
+JBoss Forge, version [ 3.5.1.Final ] - JBoss, by Red Hat, Inc. [ http://forge.jboss.org ]
+Hit '<TAB>' for a list of available commands and 'man [cmd]' for help on a specific command.
+
+To quit the shell, type 'exit'.
+
+08:13:39,714 INFO  [org.jboss.weld.Version] (org.jboss.forge.addon:javaee,3.5.1.Final) WELD-000900: 2.4.2 (SP1)
+08:13:39,822 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:configuration,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+08:13:39,832 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:convert,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+08:13:39,834 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:parser-java,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+08:13:39,876 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:shell,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+08:13:39,877 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:ui,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+08:13:39,970 INFO  [org.hibernate.validator.internal.util.Version] (org.jboss.forge.addon:javaee,3.5.1.Final) HV000001: Hibernate Validator 5.4.0.Final
+08:13:40,649 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:angularjs,2.1.8-SNAPSHOT) WELD-ENV-000020: Using jandex for bean discovery
+08:13:40,664 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:bean-validation,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+08:13:40,674 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:javaee,3.5.1.Final) WELD-ENV-000020: Using jandex for bean discovery
+08:13:41,085 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:javaee,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08:13:41,088 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:bean-validation,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08:13:41,088 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:angularjs,2.1.8-SNAPSHOT) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08:13:41,088 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:ui,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08:13:41,093 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:convert,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08:13:41,094 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:shell,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08:13:41,094 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:configuration,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08:13:41,094 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:parser-java,3.5.1.Final) WELD-000101: Transactional services not available. Injection of @Inject UserTransaction not available. Transactional observers will be invoked synchronously.
+08:13:41,589 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:configuration,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+08:13:41,630 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:ui,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+08:13:41,672 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:angularjs,2.1.8-SNAPSHOT) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+08:13:41,675 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:convert,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+08:13:41,716 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:parser-java,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+08:13:41,733 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:shell,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+08:13:41,737 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:javaee,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+08:13:41,744 INFO  [org.jboss.weld.Event] (org.jboss.forge.addon:bean-validation,3.5.1.Final) WELD-000411: Observer method [BackedAnnotatedMethod] public org.jboss.forge.furnace.container.cdi.impl.ContainerServiceExtension.processRemoteServiceTypes(@Observes ProcessAnnotatedType<?>) receives events for all annotated types. Consider restricting events using @WithAnnotations or a generic type with bounds.
+08:13:43,786 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:configuration,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:configuration initialized
+08:13:43,789 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:bean-validation,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:bean-validation initialized
+08:13:43,840 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:angularjs,2.1.8-SNAPSHOT) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:angularjs initialized
+08:13:43,838 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:convert,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:convert initialized
+08:13:43,986 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:ui,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:ui initialized
+08:13:44,355 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:shell,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:shell initialized
+08:13:44,413 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:parser-java,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:parser-java initialized
+08:13:46,223 INFO  [org.jboss.weld.Bootstrap] (org.jboss.forge.addon:javaee,3.5.1.Final) WELD-ENV-002003: Weld SE container org.jboss.forge.addon:javaee initialized
+08:17:09,190 SEVERE [org.jboss.forge.addon.shell.aesh.CommandAdapter] (AeshProcess: 6) vagrant/: Child resource doesn't exist
+08:17:53,334 INFO  [org.jboss.weld.Bootstrap] (main) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:javaee shut down
+08:17:53,358 INFO  [org.jboss.weld.Bootstrap] (main) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:convert shut down
+08:17:53,379 INFO  [org.jboss.weld.Bootstrap] (main) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:parser-java shut down
+08:17:53,414 INFO  [org.jboss.weld.Bootstrap] (main) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:angularjs shut down
+08:17:53,417 INFO  [org.jboss.weld.Bootstrap] (main) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:configuration shut down
+08:17:53,437 INFO  [org.jboss.weld.Bootstrap] (main) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:shell shut down
+08:17:53,442 INFO  [org.jboss.weld.Bootstrap] (main) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:bean-validation shut down
+08:17:53,445 INFO  [org.jboss.weld.Bootstrap] (main) WELD-ENV-002001: Weld SE container org.jboss.forge.addon:ui shut down

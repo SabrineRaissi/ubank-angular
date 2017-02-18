@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<installed>
+  <addon api-version="2.23.5.Final" name="org.jboss.forge.addon:angularjs" version="2.1.8-SNAPSHOT"/>
+</installed>

@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<parent>
+		<groupId>org.metawidget</groupId>
+		<artifactId>metawidget-parent</artifactId>
+		<version>4.2</version>
+		<relativePath>../</relativePath>
+	</parent>
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.metawidget.modules</groupId>
+	<artifactId>modules-parent</artifactId>
+	<packaging>pom</packaging>
+
+	<modules>
+		<module>java</module>
+		<!-- Not under 'java' until http://jira.codehaus.org/browse/MNG-2805 can suppress maven-source-plugin -->
+		<module>java/all</module>		
+		<module>js</module>
+	</modules>
+
+</project>
